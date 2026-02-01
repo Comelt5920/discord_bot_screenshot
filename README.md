@@ -30,6 +30,19 @@
 ### คำสั่งการใช้งาน
 - `!c` (ค่าเริ่มต้น): คำสั่งสำหรับบันทึกภาพหน้าจอและส่งไปยัง Discord ทันที
 
+### วิธีการตั้งค่า Discord Bot
+1. **สร้าง Application:** ไปที่ [Discord Developer Portal](https://discord.com/developers/applications)
+2. **สร้าง Bot:** กดที่เมนู "Bot" จากนั้นกด "Reset Token" (หรือ "Copy Token") เพื่อรับ **Bot Token**
+3. **เปิดสิทธิ์ Intent:** เลื่อนลงมาที่หัวข้อ **Privileged Gateway Intents** แล้วเปิด **Message Content Intent** (จำเป็นอย่างยิ่ง)
+4. **เชิญบอทเข้า Server:**
+   - ไปที่เมนู "OAuth2" -> "URL Generator"
+   - ติ๊กเลือก `bot`
+   - ใน Bot Permissions ติ๊กเลือก `Send Messages`, `Attach Files`, and `Read Message History`
+   - คัดลอก URL ไปวางในเบราว์เซอร์แล้วเลือก Server ที่ต้องการ
+5. **หา Channel ID:** 
+   - เปิด Discord Settings -> Advanced -> เปิด **Developer Mode**
+   - คลิกขวาที่ห้อง (Channel) ที่ต้องการ แล้วเลือก **Copy Channel ID**
+
 ---
 
 ## 🇺🇸 English
@@ -57,6 +70,19 @@
 
 ### Commands
 - `!c` (default): Manual trigger for instant screen capture and delivery.
+
+### Discord Bot Setup
+1. **Create Application:** Go to [Discord Developer Portal](https://discord.com/developers/applications)
+2. **Create Bot:** Navigate to the "Bot" tab and click "Reset Token" (or "Copy Token") to get your **Bot Token**.
+3. **Enable Intents:** Scroll down to **Privileged Gateway Intents** and enable **Message Content Intent** (Crucial).
+4. **Invite Bot:**
+   - Go to "OAuth2" -> "URL Generator".
+   - Select `bot` scope.
+   - In Bot Permissions, select `Send Messages`, `Attach Files`, and `Read Message History`.
+   - Copy the generated URL into your browser to invite the bot to your server.
+5. **Get Channel ID:** 
+   - Open Discord Settings -> Advanced -> Enable **Developer Mode**.
+   - Right-click the desired channel and select **Copy Channel ID**.
 
 ---
 
