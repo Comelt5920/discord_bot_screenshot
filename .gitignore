@@ -1,0 +1,16 @@
+# Sensitive data
+config.json
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor-specific
+.vscode/
+tempCodeRunnerFile.py
