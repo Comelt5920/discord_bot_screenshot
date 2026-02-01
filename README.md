@@ -18,7 +18,7 @@
 1. ดำเนินการดาวน์โหลดรหัสต้นฉบับจาก Repository
 2. ติดตั้งไลบรารีที่จำเป็นผ่าน Command Prompt หรือ Terminal:
    ```bash
-   pip install discord.py pyautogui
+   pip install -r requirements.txt
    ```
 3. เริ่มการทำงานของแอปพลิเคชัน:
    ```bash
@@ -46,7 +46,7 @@
 1. Download the source code from this repository.
 2. Install the required dependencies:
    ```bash
-   pip install discord.py pyautogui
+   pip install -r requirements.txt
    ```
 3. Launch the application:
    ```bash
